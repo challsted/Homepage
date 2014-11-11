@@ -1,5 +1,8 @@
-Homepage
+Homepage (No longer being worked on)
 ========
+
+**This project has been replaced by the "masammich" project. Which incorporates what this project was ment to do, adds mobile, all screensizes (dynamically), my origonal blog, and many more things instead of just links. Feel free to use this if you want a very simple, and easy to update page.**
+
 
 This is ment to be a simple homepage filled with links. 
 
