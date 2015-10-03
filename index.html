@@ -1,28 +1,27 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <script type="text/javascript" src="jquery.js"></script>
+    <link rel="stylesheet" href="css/custom-dark.css" type="text/css" />
 
     <script type="text/javascript">
-    $(document).ready(function()
-    {
-        var el = $('.menu a'),
-        color = el.css('backgroundColor');
-        $('.menu a').mouseenter(function(){
-            $(this).css('paddingLeft','5px');
-        }).mouseleave(function(){
-            $(this).css('paddingLeft','0px');
-        });
+        $(document).ready(function()
+        {
+            var el = $('.menu a'),
+            color = el.css('backgroundColor');
+            $('.menu a').mouseenter(function(){
+                $(this).css('paddingLeft','5px');
+            }).mouseleave(function(){
+                $(this).css('paddingLeft','0px');
+            });
 
-        $('.menu').each(function(index){
-            var randomnumber = 1000+(Math.random()*(1500-1000));
-            $(this).animate({height:'510'},randomnumber);
+            $('.menu').each(function(index){
+                var randomnumber = 1000+(Math.random()*(1500-1000));
+                $(this).animate({height:'510'},randomnumber);
+            });
         });
-    });
     </script>
 
-    <title>Start Page</title>
+    <title>Home Page</title>
 
 </head>
 <body>
@@ -30,20 +29,23 @@
         <div  class="menu">
             <div class="number">01</div>
             <div class="title">Social</div>
+            <a href="https://www.pay.reddit.com/">Reddit</a><br />
+            <a href="https://relp.slack.com/messages/">Slack</a><br />
+            <a href="https://plug.google.com">Google+</a><br />
             <a href="https://twitter.com/">Twitter</a><br />
             <a href="https://www.linkedin.com/">LinkedIN</a><br />
             <a href="https://www.facebook.com/">Facebook</a><br />
-            <a href="https://www.pay.reddit.com/">Reddit</a><br />
         </div>
     </div>
     <div id="two">
         <div class="menu">
             <div class="number">02</div>
             <div class="title">Linux</div>
-            <a href="http://masammich.xyz/">MaSammich Blog</a><br />
-            <a href="http://www.jupiterbroadcasting.com/tag/linux-action-show/">LAS</a><br />
-            <a href="http://www.unixmen.com/">Unixmen</a><br />
-            <a href="http://www.linux.org/forums/advanced-tutorials.55/">Advanced Tutorials</a><br />
+            <a href="http://masammich.xyz/">Ma Website</a><br />
+            <a href="http://masammich.technoanomaly.com">Ma Old Blog</a><br />
+            <a href=""></a><br />
+            <a href=""></a><br />
+            <a href=""></a><br />
         </div>
     </div>
 
@@ -93,7 +95,7 @@
             <a href="https://pragprog.com/book/bmsft/everyday-scripting-with-ruby">Everyday Scripting</a><br />
             <a href="http://tryruby.org/levels/1/challenges/0">Try Ruby</a><br />
         </div>
-    </div>  
+    </div>
 
     <div id="eight">
         <div class="menu">
@@ -132,5 +134,9 @@
             <div class="title">Eye Bleach</div>
         </div>
     </div>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/clean-blog.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
 </body>
 </html>
