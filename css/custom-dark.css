@@ -1,0 +1,235 @@
+
+/* nav bar padding so text dosnt go behind the nav bar */
+nav {
+    padding: 30px;
+}
+/* This might be deprecated by turning footer into column 12 */
+footer {
+    float: bottom;
+}*/
+/* Slight indent of paragraphs */
+p {
+    padding-left: 10px;
+  color: #33CCFF;
+}
+/* To slightly outline text with black to make it readable on any surface */
+p.textoutline {
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.well-black {
+    background-image: none;
+    border-color: rgb(35, 35, 35);
+    display: block;
+}
+/* for code tags, used for "output" */
+.codeOutput {
+    color: red;
+    background-color: #333;
+}
+/* for code tags, used for "input" */
+.codeInput {
+    color: lime;
+    background-color: black;
+}
+
+/* Start "Back To Top" Navbar */
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.50);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
+}
+/* End "Back To Top" Navbar */
+
+/* Makes id="" links work properly */
+*[id]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -75px; 
+  height: 75px; 
+  visibility: hidden; 
+}
+
+/********** TESTING ************/
+/* General Formatting - DO NOT TOUCH UNCOMMENTED LINES UNLESS YOU KNOW WHAT YOU ARE DOING! */
+
+body {
+/* Background Picture */
+    background-color: black;
+/* Font Color */
+    color: darkorange;
+/* Font Type */
+    font-family: Sans, sans-serif;
+}
+
+a {
+/* Link Color */
+    color: deeppink;
+/* Link Size */
+    font-size: 11px;
+/* Link Text Decoration - underline, overline, etc. */
+    text-decoration: none;
+}
+
+#one {
+    position: absolute;
+/* Block 01 Position from top edge */
+    top: 50px;
+/* Block 01 Position from left edge */
+    left: 50px;
+    padding-left: 5px;
+/* Block 01 Left Border */
+    border-left: 1px solid lime;
+    border-top: 1px solid lime;
+    border-bottom: 1px solid lime;
+}
+
+#two {
+    position: absolute;
+/* Block 02 Position from top edge */
+    top: 50px;
+/* Block 02 Position from left edge */
+    left: 170px;
+    padding-left: 5px;
+/* Block 02 Left Border */
+    border-left: 1px solid lime;
+    border-top: 1px solid lime;
+    border-bottom: 1px solid lime;
+}
+
+#three {
+    position: absolute;
+/* Block 03 Position from top edge */
+    top: 50px;
+/* Block 03 Position from left edge */
+    left: 290px;
+    padding-left: 5px;
+/* Block 03 Left Border */
+    border-left: 1px solid lime;
+    border-top: 1px solid lime;
+    border-bottom: 1px solid lime;
+}
+
+#four {
+    position: absolute;
+/* Block 05 Position from top edge */
+    top: 50px;
+/* Block 05 Position from left edge */
+    left: 410px;
+    padding-left: 5px;
+/* Block 05 Left Border */
+    border-left: 1px solid lime;
+    border-top: 1px solid lime;
+    border-bottom: 1px solid lime;
+}
+
+#five {
+    position: absolute;
+/* Block 08 Position from top edge */
+    top: 50px;
+/* Block 08 Position from left edge */
+    left: 530px;
+    padding-left: 5px;
+/* Block 08 Left Border */
+    border-left: 1px solid lime;
+    border-top: 1px solid lime;
+    border-bottom: 1px solid lime;
+}
+
+#six {
+    position: absolute;
+/* Block 13 Position from top edge */
+    top: 50px;
+/* Block 13 Position from left edge */
+    left: 650px;
+    padding-left: 5px;
+/* Block 13 Left Border */
+    border-left: 1px solid lime;
+    border-top: 1px solid lime;
+    border-bottom: 1px solid lime;
+}
+
+#seven {
+    position: absolute;
+/* Block 21 Position from top edge */
+    top: 50px;
+/* Block 21 Position from left edge */
+    left: 770px;
+    padding-left: 5px;
+/* Block 21 Left Border */
+    border-left: 1px solid lime;
+    border-top: 1px solid lime;
+    border-bottom: 1px solid lime;
+}
+
+#eight {
+    position: absolute;
+/* Block 34 Position from top edge */
+    top: 50px;
+/* Block 34 Position from left edge */
+    left: 890px;
+    padding-left: 5px;
+/* Block 34 Left Border */
+    border-left: 1px solid lime;
+    border-top: 1px solid lime;
+    border-bottom: 1px solid lime;
+}
+
+#nine {
+    position: absolute;
+/* Block 55 Position from top edge */
+    top: 50px;
+/* Block 55 Position from left edge */
+    left: 1010px;
+    padding-left: 5px;
+/* Block 55 Left Border */
+    border-left: 1px solid lime;
+    border-top: 1px solid lime;
+    border-bottom: 1px solid lime;
+}
+
+#ten {
+    position: absolute;
+/* Block 89 Position from top edge */
+    top: 50px;
+/* Block 89 Position from left edge */
+    left: 1130px;
+    padding-left: 5px;
+/* Block 89 Left Border */
+    border-left: 1px solid lime;
+    border-top: 1px solid lime;
+    border-bottom: 1px solid lime;
+    border-right: 1px solid lime;
+}
+
+.number {
+/* Number Font Size */
+    font-size: 50px;
+}
+
+.title {
+/* Title Font Size */
+    font-size: 14px;
+    margin-bottom: 20px;
+/* Link Text Decoration - underline, overline, etc. */
+    text-decoration: underline;
+}
+
+/* JS Formatting - DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING! */
+
+div.menu {
+    width: 120px;
+    height: 80px;
+    overflow: hidden;
+}
